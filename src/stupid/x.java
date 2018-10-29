@@ -1,12 +1,13 @@
 package stupid;
-import java.io.IOException;
 
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class x {
     public static void main(String[] arg)   {        
-        int CC=hohoho(arg);System.exit(CC);    
+        int CC=hohoho(arg);
+        System.exit(CC);    
     }
     public static int hohoho(String uuu[]) {
         try{
@@ -19,7 +20,7 @@ public class x {
                 return -2;
             int RRR=0; 
             float eee=0;
-            for(int aaa=0;aaa<kkk-3;aaa++){       
+            for(int aaa=0; aaa<kkk-3; aaa++){       
                 for(int qqq=0;qqq<ddd.length()-4;qqq+=1){
                     int vOv = 0;
                     for(int CC=0;CC<4;CC++){
